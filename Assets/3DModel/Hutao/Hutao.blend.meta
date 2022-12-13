@@ -1,0 +1,357 @@
+fileFormatVersion: 2
+guid: 6bde31cd4997ea3449d0799fc4f8fd53
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Deco
+    second: {fileID: 2100000, guid: e168071b8669d884a91050c7b0b73855, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: body
+    second: {fileID: 2100000, guid: 33f38e9f5a98d3644a6fa03e177727eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lower
+    second: {fileID: 2100000, guid: f286476b31a604a4493556ff959ae9b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: outline
+    second: {fileID: 2100000, guid: 3c52bafe8bd609f41b4628e10fdad72b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: outline br
+    second: {fileID: 2100000, guid: 01807798488f74e45b19659e9b1458d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shirt
+    second: {fileID: 2100000, guid: f29bc5053bb6fce43969cb0e4aaa1822, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u4E8C\u91CD"
+    second: {fileID: 2100000, guid: 4f6376c8aad3ef442b852285cb6abcae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u53D1"
+    second: {fileID: 2100000, guid: 7181029fd6fe5d9429618a62b5569559, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u53E3\u820C"
+    second: {fileID: 2100000, guid: b0ccf2f06c063424c8752dfc5ede9e4f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u5E261"
+    second: {fileID: 2100000, guid: 637641122f2514b479fbefaf3307641b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u5E3D"
+    second: {fileID: 2100000, guid: 35c3d6106fddc6f4dbbef0da920ec058, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u5E3D_\u9970"
+    second: {fileID: 2100000, guid: 3dede18d37ded274bae634118a96b1a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u65B0\u898F"
+    second: {fileID: 2100000, guid: 3303e7b1e6b946a41af4ef64080e68bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u767D\u76EE"
+    second: {fileID: 2100000, guid: 5fb41132b08a8e448ba1e36ac5d2a396, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u76EE"
+    second: {fileID: 2100000, guid: 884bb80a14d333e478b83aa1020fd3da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u76EE\u661F"
+    second: {fileID: 2100000, guid: f3d645d0e9b99a84f9ae80414f9009ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u776B"
+    second: {fileID: 2100000, guid: 3f7d50bd428538e449c9ce7f4760e184, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u795E\u4E4B\u773CAL"
+    second: {fileID: 2100000, guid: 91bd4bd7761356547834583b275e0b05, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u808C"
+    second: {fileID: 2100000, guid: c3e2fe4e4f4309f4ea9ec97e47cc8ce2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u9762"
+    second: {fileID: 2100000, guid: 97c1b9663c4e4c04ba0d48b803f5e1fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u97621"
+    second: {fileID: 2100000, guid: 0123437fbbfc85f49b7843c9b55e549c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u978B\u889C"
+    second: {fileID: 2100000, guid: 2eba4954264152b4a81d5bf4e062144d, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Hutao(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: "\u9762"
+      parentName: Hutao(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: "\u97621"
+      parentName: Hutao(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: "\u53E3\u820C"
+      parentName: Hutao(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: "\u76EE\u661F"
+      parentName: Hutao(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: "\u53D1"
+      parentName: Hutao(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: "\u5E3D"
+      parentName: Hutao(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: "\u5E3D_\u9970"
+      parentName: Hutao(Clone)
+      position: {x: 0.33315513, y: -0.13653895, z: -0.000000018345215}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: "\u5E261"
+      parentName: Hutao(Clone)
+      position: {x: -1.4586945, y: -0.24712273, z: -0.20925091}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: "\u978B\u889C.001"
+      parentName: Hutao(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.70686984, y: -0.018306242, z: -0.018306244, w: 0.7068697}
+      scale: {x: 1, y: 1, z: 1}
+    - name: "\u53D1.001"
+      parentName: Hutao(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: "\u53D1.002"
+      parentName: Hutao(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: body.002
+      parentName: Hutao(Clone)
+      position: {x: -0.0061857, y: 16.007702, z: -0.02586335}
+      rotation: {x: -0.7071068, y: -2.642409e-30, z: 1.8742755e-23, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: body.003
+      parentName: Hutao(Clone)
+      position: {x: -0.0061857, y: 16.007702, z: -0.02586335}
+      rotation: {x: -0.7071068, y: -2.642409e-30, z: 1.8742755e-23, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: body.004
+      parentName: Hutao(Clone)
+      position: {x: -0.0061857, y: 16.007702, z: -0.02586335}
+      rotation: {x: -0.7071068, y: -2.642409e-30, z: 1.8742755e-23, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: body.005
+      parentName: Hutao(Clone)
+      position: {x: -0.0061857, y: 16.007702, z: -0.02586335}
+      rotation: {x: -0.7071068, y: -2.642409e-30, z: 1.8742755e-23, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vert.001
+      parentName: Hutao(Clone)
+      position: {x: -0.0061857, y: 16.007702, z: -0.02586335}
+      rotation: {x: -0.00000013767877, y: 0.7071068, z: 0.70710677, w: 0.00000013767878}
+      scale: {x: 1, y: 1, z: 1}
+    - name: body.007
+      parentName: Hutao(Clone)
+      position: {x: -0.0061857, y: 16.007702, z: -0.02586335}
+      rotation: {x: -0.7071068, y: -2.642409e-30, z: 1.8742755e-23, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Plane
+      parentName: Hutao(Clone)
+      position: {x: -0.0061857, y: 16.007702, z: -0.02586335}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: body.009
+      parentName: Hutao(Clone)
+      position: {x: -0.0061857, y: 16.007702, z: -0.02586335}
+      rotation: {x: -0.7071068, y: -2.642409e-30, z: 1.8742755e-23, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: body.008
+      parentName: Hutao(Clone)
+      position: {x: -0.0061857, y: 16.007702, z: -0.02586335}
+      rotation: {x: -0.7071068, y: -2.642409e-30, z: 1.8742755e-23, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: belt
+      parentName: Hutao(Clone)
+      position: {x: -0, y: 0.020118576, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: glove
+      parentName: Hutao(Clone)
+      position: {x: -0.0031508608, y: 16.77067, z: -0.11107668}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: shoe
+      parentName: Hutao(Clone)
+      position: {x: -0, y: -0.20767485, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sk
+      parentName: Hutao(Clone)
+      position: {x: -0, y: 0.020118576, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: body.001
+      parentName: Hutao(Clone)
+      position: {x: -0.0061857, y: 16.007702, z: -0.02586335}
+      rotation: {x: -0.7071068, y: -2.642409e-30, z: 1.8742755e-23, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: body.006
+      parentName: Hutao(Clone)
+      position: {x: -0.0061857, y: 16.007702, z: -0.02586335}
+      rotation: {x: -0.7071068, y: -2.642409e-30, z: 1.8742755e-23, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: big bow.001
+      parentName: Hutao(Clone)
+      position: {x: -0, y: 0.020118576, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gloves
+      parentName: Hutao(Clone)
+      position: {x: -0.0002782821, y: 11.083103, z: -0.009810224}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
