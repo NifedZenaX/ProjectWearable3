@@ -15,12 +15,12 @@ D:/OneDrive - Bina Nusantara/Tugas2/Semester-5/Wearable-Technology/ProjectWearab
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61226
+60556
 Successfully changed project path to: D:/OneDrive - Bina Nusantara/Tugas2/Semester-5/Wearable-Technology/ProjectWearable3
 D:/OneDrive - Bina Nusantara/Tugas2/Semester-5/Wearable-Technology/ProjectWearable3
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 160.51 ms, found 5 plugins.
-Preloading 2 native plugins for Editor in 8.51 ms.
+Refreshing native plugins compatible for Editor in 152.97 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 10.49 ms.
 Initialize engine version: 2020.3.26f1 (7298b473bc1a)
 [Subsystems] Discovering subsystems at path D:/SoulBlade/Programming/Unity/Editor/2020.3.26f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/OneDrive - Bina Nusantara/Tugas2/Semester-5/Wearable-Technology/ProjectWearable3/Assets
@@ -35,49 +35,49 @@ Initialize mono
 Mono path[0] = 'D:/SoulBlade/Programming/Unity/Editor/2020.3.26f1/Editor/Data/Managed'
 Mono path[1] = 'D:/SoulBlade/Programming/Unity/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/SoulBlade/Programming/Unity/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56048
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56156
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/SoulBlade/Programming/Unity/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007705 seconds.
+Registered in 0.008062 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 79.31 ms, found 5 plugins.
-Preloading 2 native plugins for Editor in 0.33 ms.
+Refreshing native plugins compatible for Editor in 88.35 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.47 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.378 seconds
+- Completed reload, in  1.450 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1379ms)
-		BeginReloadAssembly (170ms)
+	ReloadAssembly (1450ms)
+		BeginReloadAssembly (149ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (992ms)
-			LoadAssemblies (162ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1126ms)
+			LoadAssemblies (141ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (380ms)
+			SetupTypeCache (209ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (334ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (344ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (80ms)
-				BeforeProcessingInitializeOnLoad (25ms)
-				ProcessInitializeOnLoadAttributes (164ms)
-				ProcessInitializeOnLoadMethodAttributes (56ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (89ms)
+				BeforeProcessingInitializeOnLoad (30ms)
+				ProcessInitializeOnLoadAttributes (153ms)
+				ProcessInitializeOnLoadMethodAttributes (62ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (0ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.045846 seconds.
+Registered in 0.038667 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.21 ms, found 5 plugins.
-Preloading 2 native plugins for Editor in 0.42 ms.
+Refreshing native plugins compatible for Editor in 0.69 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.24 ms.
 System.NullReferenceException: Object reference not set to an instance of an object
   at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <94027d582a674310a19cbc0223b86958>:0 
   at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <94027d582a674310a19cbc0223b86958>:0 
@@ -105,45 +105,45 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 Mono: successfully reloaded assembly
-- Completed reload, in  2.742 seconds
+- Completed reload, in  2.461 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2745ms)
-		BeginReloadAssembly (390ms)
+	ReloadAssembly (2842ms)
+		BeginReloadAssembly (188ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (13ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (50ms)
-		EndReloadAssembly (2192ms)
-			LoadAssemblies (287ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (2566ms)
+			LoadAssemblies (803ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (725ms)
+			SetupTypeCache (467ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (111ms)
-			SetupLoadedEditorAssemblies (841ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (727ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (254ms)
-				ProcessInitializeOnLoadAttributes (521ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
-				AfterProcessingInitializeOnLoad (27ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (157ms)
+				ProcessInitializeOnLoadAttributes (539ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (14ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 1.03 ms, found 5 plugins.
-Preloading 2 native plugins for Editor in 0.44 ms.
-Unloading 1906 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.4 MB.
-System memory in use after: 85.5 MB.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.33 seconds
+Refreshing native plugins compatible for Editor in 0.91 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.32 ms.
+Unloading 1907 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.5 MB.
+System memory in use after: 85.6 MB.
 
-Unloading 47 unused Assets to reduce memory usage. Loaded Objects now: 2674.
-Total: 6.168700 ms (FindLiveObjects: 0.405700 ms CreateObjectMapping: 0.171900 ms MarkObjects: 5.463100 ms  DeleteObjects: 0.126200 ms)
+Unloading 47 unused Assets to reduce memory usage. Loaded Objects now: 2675.
+Total: 3.075600 ms (FindLiveObjects: 0.184000 ms CreateObjectMapping: 0.067400 ms MarkObjects: 2.685100 ms  DeleteObjects: 0.138200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -158,897 +158,21 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/3DModel/Hutao/try.fbm/_07.png
-  artifactKey: Guid(e6734565f8c8d8c4eb607871e7f177b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DModel/Hutao/try.fbm/_07.png using Guid(e6734565f8c8d8c4eb607871e7f177b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '997bbfbc5bc82e292e5371c24d84c6f5') in 0.264931 seconds 
-  Import took 0.303028 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000463 seconds.
-  path: Assets/3DModel/Hutao/try.fbm/_10.png
-  artifactKey: Guid(201735994cba3b141a7ac41d718aac62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DModel/Hutao/try.fbm/_10.png using Guid(201735994cba3b141a7ac41d718aac62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b42ed314c6547cd95db84e439792190a') in 0.193282 seconds 
-  Import took 0.233906 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000435 seconds.
-  path: Assets/3DModel/Hutao/try.fbm/_12.png
-  artifactKey: Guid(b99b4f7fc56ede141bacdc736aef5c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DModel/Hutao/try.fbm/_12.png using Guid(b99b4f7fc56ede141bacdc736aef5c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c6c550dec252135e3d1227ff2f5e39c') in 0.053225 seconds 
-  Import took 0.090970 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000378 seconds.
-  path: Assets/3DModel/Hutao/try@Quick Formal Bow.fbm/_10.png
-  artifactKey: Guid(6aad5c851baee5e4e96cd7f37148f554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DModel/Hutao/try@Quick Formal Bow.fbm/_10.png using Guid(6aad5c851baee5e4e96cd7f37148f554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '883c9335ab0477733499f7481e36e1d7') in 0.125523 seconds 
-  Import took 0.235278 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000451 seconds.
-  path: Assets/3DModel/Hutao/try.fbm/_14.png
-  artifactKey: Guid(af5dfa89d5bff8441aff936840be6d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DModel/Hutao/try.fbm/_14.png using Guid(af5dfa89d5bff8441aff936840be6d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a6df1d076db2ac720257dc56477e0b4') in 0.111015 seconds 
-  Import took 0.171512 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000596 seconds.
-  path: Assets/3DModel/Hutao/try@Quick Formal Bow.fbm/_19.png
-  artifactKey: Guid(46bc332875ec9d34aa1926f9d4885a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DModel/Hutao/try@Quick Formal Bow.fbm/_19.png using Guid(46bc332875ec9d34aa1926f9d4885a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c623f8b1d46a739fea40aba58241fc1') in 0.044937 seconds 
-  Import took 0.082381 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000485 seconds.
-  path: Assets/3DModel/Hutao/try@Quick Formal Bow.fbm/_17.png
-  artifactKey: Guid(3119838a58ee2f047af6a8914477506e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DModel/Hutao/try@Quick Formal Bow.fbm/_17.png using Guid(3119838a58ee2f047af6a8914477506e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a02e11af37fa1b9218bae01c9081824e') in 0.040333 seconds 
-  Import took 0.082308 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000414 seconds.
-  path: Assets/3DModel/Hutao/try.fbm/_02.png
-  artifactKey: Guid(7268cf86f512cd040aab62b2f13aa36d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DModel/Hutao/try.fbm/_02.png using Guid(7268cf86f512cd040aab62b2f13aa36d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cb5cf18fde509b873b694d8a9676c9e') in 0.038279 seconds 
-  Import took 0.078211 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000413 seconds.
-  path: Assets/3DModel/Hutao/try@Quick Formal Bow.fbm/_02.png
-  artifactKey: Guid(43223ca42f218c3449653f0b1609da4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DModel/Hutao/try@Quick Formal Bow.fbm/_02.png using Guid(43223ca42f218c3449653f0b1609da4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14e65172094cccb9c7c1e10b35acbdf7') in 0.027417 seconds 
-  Import took 0.063678 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000512 seconds.
-  path: Assets/3DModel/Hutao/try.fbm/_03.png
-  artifactKey: Guid(a523f9ac726acfe4aaed93e3731d0395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DModel/Hutao/try.fbm/_03.png using Guid(a523f9ac726acfe4aaed93e3731d0395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '977acf61b6132a124e84b616b96a9b44') in 0.036704 seconds 
-  Import took 0.063018 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000452 seconds.
-  path: Assets/3DModel/Hutao/try@Quick Formal Bow.fbm/_13.png
-  artifactKey: Guid(9962e72faafdda44ab2f8ff3c9cc39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DModel/Hutao/try@Quick Formal Bow.fbm/_13.png using Guid(9962e72faafdda44ab2f8ff3c9cc39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99d805a2b285a5e2adb58faad8d91aa1') in 0.025977 seconds 
-  Import took 0.049909 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000361 seconds.
-  path: Assets/Animation/New Animator Controller.controller
-  artifactKey: Guid(a8863ea6ecba391498194d6bdf032be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/New Animator Controller.controller using Guid(a8863ea6ecba391498194d6bdf032be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '831962df5de35f220adcf3a90e7a5393') in 0.018123 seconds 
-  Import took 0.029710 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000365 seconds.
-  path: Assets/3DModel/Hutao/try@Quick Formal Bow.fbm/_07.png
-  artifactKey: Guid(8dca84fcb5829764cb7bb505b850b9ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DModel/Hutao/try@Quick Formal Bow.fbm/_07.png using Guid(8dca84fcb5829764cb7bb505b850b9ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dd211b739bb5b172bb6cdb402c8d982') in 0.019355 seconds 
-  Import took 0.033499 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000376 seconds.
-  path: Assets/3DModel/Hutao/try.fbm/_13.png
-  artifactKey: Guid(8ac2bfa496b597f4a84695353b85a1c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DModel/Hutao/try.fbm/_13.png using Guid(8ac2bfa496b597f4a84695353b85a1c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21dcad08e7cda6942d5ccc6d6901bef2') in 0.029227 seconds 
-  Import took 0.043642 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000410 seconds.
-  path: Assets/3DModel/Hutao/try@Quick Formal Bow.fbm/_04.png
-  artifactKey: Guid(57b60493812a6984389b0ada39414705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DModel/Hutao/try@Quick Formal Bow.fbm/_04.png using Guid(57b60493812a6984389b0ada39414705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e99766f1a0b1b2c66c59284586ecceb') in 0.047754 seconds 
-  Import took 0.064540 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000398 seconds.
-  path: Assets/3DModel/Hutao/try.fbm/_01.png
-  artifactKey: Guid(b73dbf51f47dd6c448ec73c0a928a4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DModel/Hutao/try.fbm/_01.png using Guid(b73dbf51f47dd6c448ec73c0a928a4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb0e3f13f18c4987515a4dc1a330d479') in 0.028756 seconds 
-  Import took 0.044513 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000784 seconds.
-  path: Assets/3DModel/Hutao/try@Quick Formal Bow.fbm/_12.png
-  artifactKey: Guid(79749e278eff9d3479059a3fd2238d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DModel/Hutao/try@Quick Formal Bow.fbm/_12.png using Guid(79749e278eff9d3479059a3fd2238d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5ff9a6638a0663ffef7e90baf3d938f') in 0.040362 seconds 
-  Import took 0.059769 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000430 seconds.
-  path: Assets/3DModel/Hutao/try@Quick Formal Bow.fbm/_14.png
-  artifactKey: Guid(fba213c15ba3dee4b976a3dbc61a34e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DModel/Hutao/try@Quick Formal Bow.fbm/_14.png using Guid(fba213c15ba3dee4b976a3dbc61a34e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3a2fee8346357d85a6b27ec30db72c9') in 0.122512 seconds 
-  Import took 0.139221 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000678 seconds.
-  path: Assets/3DModel/Hutao/try.fbm/_06.png
-  artifactKey: Guid(2e673766a934b644bbdbcf1781209a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DModel/Hutao/try.fbm/_06.png using Guid(2e673766a934b644bbdbcf1781209a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cc42f5272e5fe249e30044e6285cba8') in 0.037107 seconds 
-  Import took 0.052686 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000447 seconds.
-  path: Assets/3DModel/Hutao/try.fbm/_04.png
-  artifactKey: Guid(320a21d6709cc5f4fb0ccd802fa0faab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DModel/Hutao/try.fbm/_04.png using Guid(320a21d6709cc5f4fb0ccd802fa0faab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42f9089cb37fb5d2206aec2696ef3492') in 0.049781 seconds 
-  Import took 0.066078 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000382 seconds.
-  path: Assets/3DModel/Hutao/try.fbm/_09.png
-  artifactKey: Guid(f68e244ecc814a748bfeeb0793d10bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DModel/Hutao/try.fbm/_09.png using Guid(f68e244ecc814a748bfeeb0793d10bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cba4e2e19c8d91baf14dbfa29808ff1e') in 0.025733 seconds 
-  Import took 0.038973 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000630 seconds.
-  path: Assets/3DModel/Hutao/try.fbm/_15.png
-  artifactKey: Guid(9130b55ce5012b4459042df1f2f7ef2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DModel/Hutao/try.fbm/_15.png using Guid(9130b55ce5012b4459042df1f2f7ef2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1308ee432e7f55258dd1ce4303aeb2b') in 0.033224 seconds 
-  Import took 0.046991 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000361 seconds.
-  path: Assets/3DModel/Hutao/try@Quick Formal Bow.fbm/_06.png
-  artifactKey: Guid(84e2ecc8f42cba5468ab026c48cb30a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DModel/Hutao/try@Quick Formal Bow.fbm/_06.png using Guid(84e2ecc8f42cba5468ab026c48cb30a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d4307fc7c8b2120ff469e698cdd925f') in 0.030221 seconds 
-  Import took 0.170575 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000433 seconds.
-  path: Assets/3DModel/Hutao/try.fbm/_19.png
-  artifactKey: Guid(882057214025cae46afa9fa3d0106ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DModel/Hutao/try.fbm/_19.png using Guid(882057214025cae46afa9fa3d0106ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97db6fb3de402ca97c983637ad7edfc2') in 0.033378 seconds 
-  Import took 0.047436 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000442 seconds.
-  path: Assets/3DModel/Hutao/try@Quick Formal Bow.fbm/_21.png
-  artifactKey: Guid(9170b54e6240eaa43a901755b812f648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DModel/Hutao/try@Quick Formal Bow.fbm/_21.png using Guid(9170b54e6240eaa43a901755b812f648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e9e3b6edf4420797694a164370e0dbe') in 0.047622 seconds 
-  Import took 0.058529 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000416 seconds.
-  path: Assets/3DModel/Hutao/try@Quick Formal Bow.fbm/_01.png
-  artifactKey: Guid(650863d52360fc7439d205f51a6a7c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DModel/Hutao/try@Quick Formal Bow.fbm/_01.png using Guid(650863d52360fc7439d205f51a6a7c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29216344eb896ead873c2462efbc4a34') in 0.026861 seconds 
-  Import took 0.038836 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000387 seconds.
-  path: Assets/3DModel/Hutao/try@Quick Formal Bow.fbm/_03.png
-  artifactKey: Guid(bd29e2dec23ab6e4a8761b31475dfe83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DModel/Hutao/try@Quick Formal Bow.fbm/_03.png using Guid(bd29e2dec23ab6e4a8761b31475dfe83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac827dbc1442b5cfa9158fe5bb23f0fa') in 0.038400 seconds 
-  Import took 0.051298 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000400 seconds.
-  path: Assets/3DModel/Hutao/try@Quick Formal Bow.fbm/_09.png
-  artifactKey: Guid(18f51dd1fe104334fa597e5da9e28f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DModel/Hutao/try@Quick Formal Bow.fbm/_09.png using Guid(18f51dd1fe104334fa597e5da9e28f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4ded898ae9430ebb70cc123d478718b') in 0.021091 seconds 
-  Import took 0.034335 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000398 seconds.
-  path: Assets/3DModel/Hutao/try.fbm/_21.png
-  artifactKey: Guid(bf1cece3f63ce7948ba267e2fe8a954e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DModel/Hutao/try.fbm/_21.png using Guid(bf1cece3f63ce7948ba267e2fe8a954e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb3c2d09ad7c2e7cbaba3b87076235fd') in 0.033958 seconds 
-  Import took 0.046839 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000336 seconds.
-  path: Assets/3DModel/Hutao/try@Quick Formal Bow.fbm/_15.png
-  artifactKey: Guid(f5c7151d6dd25674c95e66f1e1891d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DModel/Hutao/try@Quick Formal Bow.fbm/_15.png using Guid(f5c7151d6dd25674c95e66f1e1891d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15ce7fbce41c4b7ab2d5caa7e1241c20') in 0.031488 seconds 
-  Import took 0.045891 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000390 seconds.
-  path: Assets/3DModel/Hutao/try.fbm/_17.png
-  artifactKey: Guid(326228fcdca598244a538a584b77467a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DModel/Hutao/try.fbm/_17.png using Guid(326228fcdca598244a538a584b77467a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '343eb8bc6e14b781dbd5fb138bae469e') in 0.028036 seconds 
-  Import took 0.049980 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 79.810636 seconds.
-  path: Assets/Animation/New Animator Controller.controller
-  artifactKey: Guid(a8863ea6ecba391498194d6bdf032be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/New Animator Controller.controller using Guid(a8863ea6ecba391498194d6bdf032be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da1dcaf0335f1e65ccb474467228577b') in 0.008583 seconds 
-  Import took 0.024300 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.037574 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.21 ms, found 5 plugins.
-Preloading 2 native plugins for Editor in 0.60 ms.
-System.NullReferenceException: Object reference not set to an instance of an object
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <94027d582a674310a19cbc0223b86958>:0 
-  at VuforiaEnabledObserver..cctor () [0x00000] in <94027d582a674310a19cbc0223b86958>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-System.NullReferenceException: Object reference not set to an instance of an object
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <94027d582a674310a19cbc0223b86958>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  3.303 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3304ms)
-		BeginReloadAssembly (338ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (90ms)
-		EndReloadAssembly (2759ms)
-			LoadAssemblies (327ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (894ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (116ms)
-			SetupLoadedEditorAssemblies (1068ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (302ms)
-				ProcessInitializeOnLoadAttributes (646ms)
-				ProcessInitializeOnLoadMethodAttributes (43ms)
-				AfterProcessingInitializeOnLoad (58ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (23ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.14 ms, found 5 plugins.
-Preloading 2 native plugins for Editor in 0.54 ms.
-Unloading 1884 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 83.7 MB.
-System memory in use after: 83.8 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2682.
-Total: 7.653000 ms (FindLiveObjects: 0.396900 ms CreateObjectMapping: 0.198600 ms MarkObjects: 6.982100 ms  DeleteObjects: 0.073500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.033684 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.29 ms, found 5 plugins.
-Preloading 2 native plugins for Editor in 0.51 ms.
-System.NullReferenceException: Object reference not set to an instance of an object
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <94027d582a674310a19cbc0223b86958>:0 
-  at VuforiaEnabledObserver..cctor () [0x00000] in <94027d582a674310a19cbc0223b86958>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-System.NullReferenceException: Object reference not set to an instance of an object
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <94027d582a674310a19cbc0223b86958>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.833 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2834ms)
-		BeginReloadAssembly (306ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (12ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (82ms)
-		EndReloadAssembly (2315ms)
-			LoadAssemblies (329ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (850ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (100ms)
-			SetupLoadedEditorAssemblies (697ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (256ms)
-				ProcessInitializeOnLoadAttributes (363ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
-				AfterProcessingInitializeOnLoad (42ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 2.91 ms, found 5 plugins.
-Preloading 2 native plugins for Editor in 0.86 ms.
-Unloading 1884 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 83.8 MB.
-System memory in use after: 83.9 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2685.
-Total: 7.453700 ms (FindLiveObjects: 0.493600 ms CreateObjectMapping: 0.219300 ms MarkObjects: 6.645500 ms  DeleteObjects: 0.090800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 142.351823 seconds.
-  path: Assets/3DModel/Hutao/try@Quick Formal Bow.fbx
-  artifactKey: Guid(8ec222888f83e424b84c201f28461c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DModel/Hutao/try@Quick Formal Bow.fbx using Guid(8ec222888f83e424b84c201f28461c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd51e6e8070b2026ad05c5d425fa80d6c') in 1.045495 seconds 
-  Import took 1.066460 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.042497 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.35 ms, found 5 plugins.
-Preloading 2 native plugins for Editor in 0.80 ms.
-System.NullReferenceException: Object reference not set to an instance of an object
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <94027d582a674310a19cbc0223b86958>:0 
-  at VuforiaEnabledObserver..cctor () [0x00000] in <94027d582a674310a19cbc0223b86958>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-System.NullReferenceException: Object reference not set to an instance of an object
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <94027d582a674310a19cbc0223b86958>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  3.364 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3365ms)
-		BeginReloadAssembly (257ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (76ms)
-		EndReloadAssembly (2908ms)
-			LoadAssemblies (284ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (884ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (129ms)
-			SetupLoadedEditorAssemblies (1096ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (365ms)
-				ProcessInitializeOnLoadAttributes (638ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
-				AfterProcessingInitializeOnLoad (51ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (26ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.57 ms, found 5 plugins.
-Preloading 2 native plugins for Editor in 0.79 ms.
-Unloading 1884 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 100.6 MB.
-System memory in use after: 100.8 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2698.
-Total: 10.287600 ms (FindLiveObjects: 1.140800 ms CreateObjectMapping: 0.401400 ms MarkObjects: 8.608400 ms  DeleteObjects: 0.132700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.073151 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.56 ms, found 5 plugins.
-Preloading 2 native plugins for Editor in 0.77 ms.
-System.NullReferenceException: Object reference not set to an instance of an object
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <94027d582a674310a19cbc0223b86958>:0 
-  at VuforiaEnabledObserver..cctor () [0x00000] in <94027d582a674310a19cbc0223b86958>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-System.NullReferenceException: Object reference not set to an instance of an object
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <94027d582a674310a19cbc0223b86958>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  4.397 seconds
-Domain Reload Profiling:
-	ReloadAssembly (4398ms)
-		BeginReloadAssembly (324ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (12ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (74ms)
-		EndReloadAssembly (3862ms)
-			LoadAssemblies (360ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1029ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (120ms)
-			SetupLoadedEditorAssemblies (1663ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (486ms)
-				ProcessInitializeOnLoadAttributes (1046ms)
-				ProcessInitializeOnLoadMethodAttributes (37ms)
-				AfterProcessingInitializeOnLoad (75ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (32ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 2.19 ms, found 5 plugins.
-Preloading 2 native plugins for Editor in 1.05 ms.
-Unloading 1884 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 100.6 MB.
-System memory in use after: 100.8 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2701.
-Total: 12.480300 ms (FindLiveObjects: 0.741600 ms CreateObjectMapping: 0.341000 ms MarkObjects: 11.238200 ms  DeleteObjects: 0.154300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 90.266053 seconds.
-  path: Assets/3DModel/Hutao/try@Quick Formal Bow.fbx
-  artifactKey: Guid(8ec222888f83e424b84c201f28461c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DModel/Hutao/try@Quick Formal Bow.fbx using Guid(8ec222888f83e424b84c201f28461c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bcaf374bed361fa4bd7c7afc5f44015') in 1.492158 seconds 
-  Import took 1.525943 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.073393 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 3.38 ms, found 5 plugins.
-Preloading 2 native plugins for Editor in 1.11 ms.
-System.NullReferenceException: Object reference not set to an instance of an object
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <94027d582a674310a19cbc0223b86958>:0 
-  at VuforiaEnabledObserver..cctor () [0x00000] in <94027d582a674310a19cbc0223b86958>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-System.NullReferenceException: Object reference not set to an instance of an object
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <94027d582a674310a19cbc0223b86958>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  5.940 seconds
-Domain Reload Profiling:
-	ReloadAssembly (5941ms)
-		BeginReloadAssembly (498ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (21ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (117ms)
-		EndReloadAssembly (5078ms)
-			LoadAssemblies (642ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1161ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (166ms)
-			SetupLoadedEditorAssemblies (2332ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (3ms)
-				RefreshPlugins (5ms)
-				BeforeProcessingInitializeOnLoad (712ms)
-				ProcessInitializeOnLoadAttributes (1427ms)
-				ProcessInitializeOnLoadMethodAttributes (68ms)
-				AfterProcessingInitializeOnLoad (100ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (35ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 2.01 ms, found 5 plugins.
-Preloading 2 native plugins for Editor in 0.99 ms.
-Unloading 1884 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 100.6 MB.
-System memory in use after: 100.8 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2705.
-Total: 10.985400 ms (FindLiveObjects: 0.543900 ms CreateObjectMapping: 0.291100 ms MarkObjects: 10.015400 ms  DeleteObjects: 0.131000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 61.848804 seconds.
-  path: Assets/3DModel/Hutao/try@Quick Formal Bow.fbx
-  artifactKey: Guid(8ec222888f83e424b84c201f28461c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DModel/Hutao/try@Quick Formal Bow.fbx using Guid(8ec222888f83e424b84c201f28461c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9435b8cfa9ef5267de8c034e59924a2a') in 1.299835 seconds 
-  Import took 1.328091 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.060945 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.99 ms, found 5 plugins.
-Preloading 2 native plugins for Editor in 0.95 ms.
-System.NullReferenceException: Object reference not set to an instance of an object
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <94027d582a674310a19cbc0223b86958>:0 
-  at VuforiaEnabledObserver..cctor () [0x00000] in <94027d582a674310a19cbc0223b86958>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-System.NullReferenceException: Object reference not set to an instance of an object
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <94027d582a674310a19cbc0223b86958>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  7.254 seconds
-Domain Reload Profiling:
-	ReloadAssembly (7257ms)
-		BeginReloadAssembly (666ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (24ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (164ms)
-		EndReloadAssembly (6014ms)
-			LoadAssemblies (1229ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1995ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (164ms)
-			SetupLoadedEditorAssemblies (1936ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (22ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (568ms)
-				ProcessInitializeOnLoadAttributes (1235ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
-				AfterProcessingInitializeOnLoad (65ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (24ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.74 ms, found 5 plugins.
-Preloading 2 native plugins for Editor in 1.22 ms.
-Unloading 1884 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 100.7 MB.
-System memory in use after: 100.8 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2709.
-Total: 10.032000 ms (FindLiveObjects: 0.546900 ms CreateObjectMapping: 0.294000 ms MarkObjects: 9.039700 ms  DeleteObjects: 0.148200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 804.490738 seconds.
   path: Assets/Scenes/ARAnimeCard.unity
   artifactKey: Guid(0b15519c9596a064fa675deedcf7083e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/ARAnimeCard.unity using Guid(0b15519c9596a064fa675deedcf7083e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d8349cdc5f0762b83e767e2fac3379e') in 0.059318 seconds 
-  Import took 0.319994 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 298.656284 seconds.
-  path: Assets/Scenes/HomeScene.unity
-  artifactKey: Guid(ac2148b3e1b229949b3d2d0013b6969b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/HomeScene.unity using Guid(ac2148b3e1b229949b3d2d0013b6969b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1234ee7f03e786cf31c1ae719eb82f5e') in 0.097902 seconds 
-  Import took 0.285452 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 425.281863 seconds.
-  path: Assets/Scenes/CharacterList.unity
-  artifactKey: Guid(9b66d5fa56e7a234e9b8fd429dbd8733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/CharacterList.unity using Guid(9b66d5fa56e7a234e9b8fd429dbd8733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5fac36d3012038340b47f7abd572da9') in 0.013978 seconds 
-  Import took 0.050703 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 35.481110 seconds.
-  path: Assets/Scenes/HomeScene.unity
-  artifactKey: Guid(ac2148b3e1b229949b3d2d0013b6969b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/HomeScene.unity using Guid(ac2148b3e1b229949b3d2d0013b6969b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72b23c3134f8901f02d54561704b6946') in 0.006191 seconds 
-  Import took 0.017434 seconds .
+Start importing Assets/Scenes/ARAnimeCard.unity using Guid(0b15519c9596a064fa675deedcf7083e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a24de17fb59a8792a880453b1db284ef') in 0.019705 seconds 
+  Import took 0.488133 seconds .
 
 ========================================================================
 Received Prepare
-Registering precompiled user dll's ...
-Registered in 9.494493 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 20.82 ms, found 5 plugins.
-Preloading 2 native plugins for Editor in 9.92 ms.
-System.NullReferenceException: Object reference not set to an instance of an object
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <94027d582a674310a19cbc0223b86958>:0 
-  at VuforiaEnabledObserver..cctor () [0x00000] in <94027d582a674310a19cbc0223b86958>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+Refreshing native plugins compatible for Editor in 20.08 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.25 ms.
+Unloading 39 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 46.2 MB.
+System memory in use after: 46.4 MB.
 
-System.NullReferenceException: Object reference not set to an instance of an object
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <94027d582a674310a19cbc0223b86958>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in 44.870 seconds
-Domain Reload Profiling:
-	ReloadAssembly (44935ms)
-		BeginReloadAssembly (6331ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (346ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (1ms)
-			CreateAndSetChildDomain (2633ms)
-		EndReloadAssembly (35100ms)
-			LoadAssemblies (4640ms)
-			RebuildTransferFunctionScriptingTraits (4ms)
-			SetupTypeCache (13019ms)
-			ReleaseScriptCaches (16ms)
-			RebuildScriptCaches (1504ms)
-			SetupLoadedEditorAssemblies (11224ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (176ms)
-				SetLoadedEditorAssemblies (21ms)
-				RefreshPlugins (33ms)
-				BeforeProcessingInitializeOnLoad (4056ms)
-				ProcessInitializeOnLoadAttributes (6782ms)
-				ProcessInitializeOnLoadMethodAttributes (59ms)
-				AfterProcessingInitializeOnLoad (95ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (36ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 4.00 ms, found 5 plugins.
-Preloading 2 native plugins for Editor in 2.26 ms.
-Unloading 1884 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 100.7 MB.
-System memory in use after: 100.9 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2712.
-Total: 31.289500 ms (FindLiveObjects: 1.075100 ms CreateObjectMapping: 0.768100 ms MarkObjects: 29.144600 ms  DeleteObjects: 0.295500 ms)
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2676.
+Total: 7.372500 ms (FindLiveObjects: 0.218300 ms CreateObjectMapping: 0.087700 ms MarkObjects: 7.022600 ms  DeleteObjects: 0.041800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -1059,193 +183,6 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 409.686954 seconds.
-  path: Assets/Scenes/HomeScene.unity
-  artifactKey: Guid(ac2148b3e1b229949b3d2d0013b6969b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/HomeScene.unity using Guid(ac2148b3e1b229949b3d2d0013b6969b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e66baf7377cb67000c353d04f94c6fc') in 0.159467 seconds 
-  Import took 0.198343 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.174563 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.91 ms, found 5 plugins.
-Preloading 2 native plugins for Editor in 0.93 ms.
-System.NullReferenceException: Object reference not set to an instance of an object
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <94027d582a674310a19cbc0223b86958>:0 
-  at VuforiaEnabledObserver..cctor () [0x00000] in <94027d582a674310a19cbc0223b86958>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-System.NullReferenceException: Object reference not set to an instance of an object
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <94027d582a674310a19cbc0223b86958>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  6.074 seconds
-Domain Reload Profiling:
-	ReloadAssembly (6076ms)
-		BeginReloadAssembly (540ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (18ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (163ms)
-		EndReloadAssembly (5185ms)
-			LoadAssemblies (499ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1489ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (230ms)
-			SetupLoadedEditorAssemblies (1726ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (521ms)
-				ProcessInitializeOnLoadAttributes (1061ms)
-				ProcessInitializeOnLoadMethodAttributes (44ms)
-				AfterProcessingInitializeOnLoad (77ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (36ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.79 ms, found 5 plugins.
-Preloading 2 native plugins for Editor in 0.90 ms.
-Unloading 1884 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 100.7 MB.
-System memory in use after: 100.9 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2715.
-Total: 9.927300 ms (FindLiveObjects: 0.634900 ms CreateObjectMapping: 0.399100 ms MarkObjects: 8.778400 ms  DeleteObjects: 0.111400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1269.079472 seconds.
-  path: Assets/Scripts/AnimationController.cs
-  artifactKey: Guid(964a1f3043f9be945aed9d29c205ab8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/AnimationController.cs using Guid(964a1f3043f9be945aed9d29c205ab8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da1248c32aa0b2fce7fb01d19f9e0155') in 1.153576 seconds 
-  Import took 1.288998 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 1.013514 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 22.67 ms, found 5 plugins.
-Preloading 2 native plugins for Editor in 6.74 ms.
-System.NullReferenceException: Object reference not set to an instance of an object
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <94027d582a674310a19cbc0223b86958>:0 
-  at VuforiaEnabledObserver..cctor () [0x00000] in <94027d582a674310a19cbc0223b86958>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-System.NullReferenceException: Object reference not set to an instance of an object
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <94027d582a674310a19cbc0223b86958>:0 
-  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <94027d582a674310a19cbc0223b86958>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in 42.440 seconds
-Domain Reload Profiling:
-	ReloadAssembly (42454ms)
-		BeginReloadAssembly (3953ms)
-			ExecutionOrderSort (1ms)
-			DisableScriptedObjects (241ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (1ms)
-			CreateAndSetChildDomain (955ms)
-		EndReloadAssembly (37102ms)
-			LoadAssemblies (2825ms)
-			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (11145ms)
-			ReleaseScriptCaches (26ms)
-			RebuildScriptCaches (1692ms)
-			SetupLoadedEditorAssemblies (13396ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (143ms)
-				SetLoadedEditorAssemblies (17ms)
-				RefreshPlugins (31ms)
-				BeforeProcessingInitializeOnLoad (3809ms)
-				ProcessInitializeOnLoadAttributes (8520ms)
-				ProcessInitializeOnLoadMethodAttributes (322ms)
-				AfterProcessingInitializeOnLoad (547ms)
-				EditorAssembliesLoaded (8ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (251ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 17.33 ms, found 5 plugins.
-Preloading 2 native plugins for Editor in 8.05 ms.
-Unloading 1884 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 100.7 MB.
-System memory in use after: 100.9 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2718.
-Total: 89.374400 ms (FindLiveObjects: 3.724100 ms CreateObjectMapping: 2.834000 ms MarkObjects: 81.686100 ms  DeleteObjects: 1.125400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

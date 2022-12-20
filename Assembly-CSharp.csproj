@@ -56,11 +56,13 @@
     <Compile Include="Assets\Scripts\SceneLoader.cs" />
     <Compile Include="Assets\Scripts\ChracterSO.cs" />
     <Compile Include="Assets\Scripts\TypeWriter.cs" />
-    <Compile Include="Assets\Scripts\DialogueBox.cs" />
     <Compile Include="Assets\Scripts\AnimationController.cs" />
+    <Compile Include="Assets\Scripts\DialogueBox.cs" />
+    <Compile Include="Assets\Scripts\CharacterController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\StreamingAssets\Vuforia\Waroenk_Zoel_21.xml" />
+    <None Include="Assets\StreamingAssets\Vuforia\PocketWaifu.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_Images.xml" />
   </ItemGroup>
   <ItemGroup>
