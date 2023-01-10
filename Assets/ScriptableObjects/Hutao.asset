@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b35283fe3549c64eafbb210ef6faf38, type: 3}
   m_Name: Hutao
   m_EditorClassIdentifier: 
-  charImage: {fileID: 0}
+  character: {fileID: 2958321994647697982, guid: 821e33916f4122f46a3dd9507ad95695, type: 3}
   charName: Hutao
-  charDesc: Pyro polearm user, uses HP to boost damage
+  charAnim: {fileID: 2724532637988177770, guid: 821e33916f4122f46a3dd9507ad95695, type: 3}
+  charAudio: {fileID: 2724532637988177771, guid: 821e33916f4122f46a3dd9507ad95695, type: 3}
   dialogues:
   - Hello
   - Good day

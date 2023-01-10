@@ -5,9 +5,9 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "New Character", menuName = "Character")]
 public class ChracterSO : ScriptableObject
 {
-    public Sprite charImage;
+    public GameObject character;
     public string charName;
-    public string charDesc;
-
+    public Animator charAnim;
+    public AudioSource charAudio;
     public string[] dialogues;
 }
