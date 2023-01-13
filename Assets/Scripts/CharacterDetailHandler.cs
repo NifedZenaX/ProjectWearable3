@@ -6,8 +6,10 @@ using UnityEngine.UI;
 public class CharacterDetailHandler : MonoBehaviour
 {
     public Text charName;
-    public Text charDialogues;
     public Transform charBase;
+
+    public GameObject dialoguePrefab;
+    public Transform dialoguePrefabParent;
 
     ChracterSO character;
 
@@ -16,11 +18,34 @@ public class CharacterDetailHandler : MonoBehaviour
         character = AppManager.instance.character;
         charName.text = character.charName;
         GameObject go = Instantiate(character.character, charBase);
-        go.transform.localScale = new Vector3(0.3f, 0.3f, 0.3f);
+        go.GetComponent<CapsuleCollider>().enabled = false;
+        go.transform.localScale = new Vector3(1f, 1f, 1f);
+
+        int dialogueCnt = character.dialogues.Length;
+
+        for (int i = 0; i < dialogueCnt; i++)
+        {
+            GameObject dialogueGo = Instantiate(dialoguePrefab, dialoguePrefabParent);
+            // Get dialogue text from scriptable object and display
+            Text dialogueTxt = dialogueGo.GetComponentInChildren<Text>();
+            dialogueTxt.text = character.dialogues[i].dialogueText;
+
+            // Get button and attach play dialogue method to button
+            Button dialogueBtn = dialogueGo.GetComponentInChildren<Button>();
+            dialogueBtn.onClick.AddListener(delegate { PlayAudio(character.dialogues[i].sound.dialogueName); });
+        }
     }
 
-    public void PlayAudio()
+    public void PlayAudio(string dialogueName)
     {
+        foreach (ChracterSO.Dialogues dialogue in character.dialogues)
+        {
+            if (dialogue.sound.dialogueName.Equals(dialogueName))
+            {
+                character.charAudio.clip = dialogue.sound.dialogueSFX;
+                break;
+            }
+        }
         character.charAudio.Play();
     }
 

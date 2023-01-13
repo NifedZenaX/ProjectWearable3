@@ -9,5 +9,19 @@ public class ChracterSO : ScriptableObject
     public string charName;
     public Animator charAnim;
     public AudioSource charAudio;
-    public string[] dialogues;
+
+    [System.Serializable]
+    public struct Dialogues
+    {
+        public string dialogueText;
+        [System.Serializable]
+        public struct DialogueSound
+        {
+            public string dialogueName;
+            public AudioClip dialogueSFX;
+        };
+        public DialogueSound sound;
+    };
+
+    public Dialogues[] dialogues;
 }

@@ -53,6 +53,8 @@
     <UnityVersion>2020.3.26f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\CardManager.cs" />
+    <Compile Include="Assets\Scripts\MenuUIHandler.cs" />
     <Compile Include="Assets\Scripts\CharacterDetailHandler.cs" />
     <Compile Include="Assets\Scripts\SceneLoader.cs" />
     <Compile Include="Assets\Scripts\ChracterSO.cs" />
@@ -61,12 +63,12 @@
     <Compile Include="Assets\Scripts\AnimationController.cs" />
     <Compile Include="Assets\Scripts\DialogueBox.cs" />
     <Compile Include="Assets\Scripts\CharacterController.cs" />
-    <Compile Include="Assets\Scripts\MenuUIHandler.cs" />
+    <Compile Include="Assets\Scripts\AudioSlider.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\StreamingAssets\Vuforia\Waroenk_Zoel_21.xml" />
-    <None Include="Assets\StreamingAssets\Vuforia\PocketWaifu.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_Images.xml" />
+    <None Include="Assets\StreamingAssets\Vuforia\PocketWaifu.xml" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -10,14 +10,7 @@ public class AnimationController : MonoBehaviour
 
     private void OnMouseDown()
     {
-        if (anim.GetBool("Interact"))
-        {
-            anim.SetBool("Interact", false);
-        }
-        else
-        {
-            anim.SetBool("Interact", true);
-        }
+        anim.SetTrigger("Interact");
         dialogue.InteractDialogue();
     }
 }
