@@ -13,19 +13,11 @@ MonoBehaviour:
   m_Name: Hutao1
   m_EditorClassIdentifier: 
   character: {fileID: 5345567496029497684, guid: 0175c01e8e979cf44bb74fdbbf9d8d77, type: 3}
-  charName: Hutao1
+  charName: Hutao Greeting
   charAnim: {fileID: 1694682944812870036, guid: 0175c01e8e979cf44bb74fdbbf9d8d77, type: 3}
   charAudio: {fileID: 5111071560475300870, guid: 0175c01e8e979cf44bb74fdbbf9d8d77, type: 3}
   dialogues:
-  - dialogueText: 
+  - dialogueText: Good morning, Onii-chan!
     sound:
-      dialogueName: 
-      dialogueSFX: {fileID: 0}
-  - dialogueText: 
-    sound:
-      dialogueName: 
-      dialogueSFX: {fileID: 0}
-  - dialogueText: 
-    sound:
-      dialogueName: 
-      dialogueSFX: {fileID: 0}
+      dialogueName: Hello
+      dialogueSFX: {fileID: 8300000, guid: a344b196fe8386a458165aa52ed0ecba, type: 3}

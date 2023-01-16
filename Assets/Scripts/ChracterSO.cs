@@ -7,8 +7,6 @@ public class ChracterSO : ScriptableObject
 {
     public GameObject character;
     public string charName;
-    public Animator charAnim;
-    public AudioSource charAudio;
 
     [System.Serializable]
     public struct Dialogues

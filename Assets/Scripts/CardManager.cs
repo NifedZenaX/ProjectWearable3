@@ -20,7 +20,7 @@ public class CardManager : MonoBehaviour
 
         foreach (Button card in cards)
         {
-            if(PlayerPrefs.GetInt(card.name) == -1)
+            if (PlayerPrefs.GetInt(card.name) == -1)
             {
                 card.interactable = false;
             }

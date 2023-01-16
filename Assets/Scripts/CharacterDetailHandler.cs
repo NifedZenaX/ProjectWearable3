@@ -11,15 +11,19 @@ public class CharacterDetailHandler : MonoBehaviour
     public GameObject dialoguePrefab;
     public Transform dialoguePrefabParent;
 
+    public AppManager manager;
+
+    GameObject go;
     ChracterSO character;
 
     public void Start()
     {
+        //character = manager.character;
         character = AppManager.instance.character;
         charName.text = character.charName;
-        GameObject go = Instantiate(character.character, charBase);
+        go = Instantiate(character.character, charBase);
         go.GetComponent<CapsuleCollider>().enabled = false;
-        go.transform.localScale = new Vector3(1f, 1f, 1f);
+        go.transform.localScale = new Vector3(2.8f, 2.8f, 2.8f);
 
         int dialogueCnt = character.dialogues.Length;
 
@@ -42,15 +46,15 @@ public class CharacterDetailHandler : MonoBehaviour
         {
             if (dialogue.sound.dialogueName.Equals(dialogueName))
             {
-                character.charAudio.clip = dialogue.sound.dialogueSFX;
+                go.GetComponent<AudioSource>().clip = dialogue.sound.dialogueSFX;
                 break;
             }
         }
-        character.charAudio.Play();
+        go.GetComponent<AudioSource>().Play();
     }
 
     public void PlayAnimation()
     {
-        character.charAnim.SetTrigger("Interact");
+        go.GetComponent<Animator>().SetTrigger("Interact");
     }
 }
