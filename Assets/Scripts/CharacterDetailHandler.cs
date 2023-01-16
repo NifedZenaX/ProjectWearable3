@@ -24,7 +24,7 @@ public class CharacterDetailHandler : MonoBehaviour
         go = Instantiate(character.character, charBase);
         go.GetComponent<CapsuleCollider>().enabled = false;
         go.transform.localScale = new Vector3(350f, 350f, 350f);
-        go.transform.position = new Vector3(go.transform.position.x, go.transform.position.y, -500f);
+        go.transform.localPosition = new Vector3(go.transform.position.x, go.transform.position.y, -500f);
 
         int dialogueCnt = character.dialogues.Length;
 
