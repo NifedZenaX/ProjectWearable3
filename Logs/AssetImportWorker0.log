@@ -3301,3 +3301,4 @@ Received Import Request.
 Start importing Assets/Scenes/ARAnimeCard.unity using Guid(0b15519c9596a064fa675deedcf7083e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2bd7d61f712bc8137f57a205d89232c') in 0.028200 seconds 
   Import took 0.033389 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
