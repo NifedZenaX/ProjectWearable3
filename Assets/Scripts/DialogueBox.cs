@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class DialogueBox : MonoBehaviour
 {
-    public string[] dialogues;
     public Canvas dialogueCanvas;
     public Text textbox;
 
@@ -15,11 +14,9 @@ public class DialogueBox : MonoBehaviour
         typer = GetComponent<TypeWriter>();
     }
 
-    public void InteractDialogue()
+    public void InteractDialogue(string dialogue)
     {
-        int rand = Random.Range(0, dialogues.Length);
-        typer.Type(dialogues[rand], textbox);
-        //textbox.text = dialogues[rand];
+        typer.Type(dialogue, textbox);
         return;
     }
 }

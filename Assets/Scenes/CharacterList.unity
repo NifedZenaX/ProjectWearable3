@@ -1138,10 +1138,10 @@ RectTransform:
   m_Father: {fileID: 1393901794}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -12.388, y: 271}
-  m_SizeDelta: {x: 641.44, y: 351.5634}
+  m_AnchorMin: {x: 0.075, y: 0.5753957}
+  m_AnchorMax: {x: 0.90375006, y: 0.7745847}
+  m_AnchoredPosition: {x: -3.8880005, y: 6}
+  m_SizeDelta: {x: -21.559998, y: 49.563354}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1120534145
 MonoBehaviour:
@@ -1245,10 +1245,10 @@ RectTransform:
   m_Father: {fileID: 1393901794}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00048828, y: -231.94553}
-  m_SizeDelta: {x: 720, y: 520.6732}
+  m_AnchorMin: {x: 0.053750005, y: 0.17516954}
+  m_AnchorMax: {x: 0.9462501, y: 0.5147739}
+  m_AnchoredPosition: {x: 0.00048828125, y: 3.0544434}
+  m_SizeDelta: {x: 6, y: 6.673218}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1212066561
 MonoBehaviour:
@@ -1703,7 +1703,7 @@ MonoBehaviour:
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.8301887, g: 0.39718834, b: 0, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 1, g: 0.4784314, b: 0, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -1717,7 +1717,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 1360217229}
   m_OnClick:
     m_PersistentCalls:
@@ -2853,6 +2853,6 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 675.00006, y: 14.5884}
+  m_AnchoredPosition: {x: 675.00006, y: 14.588379}
   m_SizeDelta: {x: 1350, y: 29.1768}
   m_Pivot: {x: 0.5, y: 0.5}

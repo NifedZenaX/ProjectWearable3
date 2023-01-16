@@ -23,7 +23,8 @@ public class CharacterDetailHandler : MonoBehaviour
         charName.text = character.charName;
         go = Instantiate(character.character, charBase);
         go.GetComponent<CapsuleCollider>().enabled = false;
-        go.transform.localScale = new Vector3(2.8f, 2.8f, 2.8f);
+        go.transform.localScale = new Vector3(350f, 350f, 350f);
+        go.transform.position = new Vector3(go.transform.position.x, go.transform.position.y, -500f);
 
         int dialogueCnt = character.dialogues.Length;
 
@@ -36,21 +37,15 @@ public class CharacterDetailHandler : MonoBehaviour
 
             // Get button and attach play dialogue method to button
             Button dialogueBtn = dialogueGo.GetComponentInChildren<Button>();
-            dialogueBtn.onClick.AddListener(delegate { PlayAudio(character.dialogues[i].sound.dialogueName); });
+            dialogueBtn.onClick.AddListener(delegate { PlayAudio(character.dialogues[i].sound.dialogueSFX); });
         }
     }
 
-    public void PlayAudio(string dialogueName)
+    public void PlayAudio(AudioClip dialogue)
     {
-        foreach (ChracterSO.Dialogues dialogue in character.dialogues)
-        {
-            if (dialogue.sound.dialogueName.Equals(dialogueName))
-            {
-                go.GetComponent<AudioSource>().clip = dialogue.sound.dialogueSFX;
-                break;
-            }
-        }
-        go.GetComponent<AudioSource>().Play();
+        AudioSource src = go.GetComponent<AudioSource>();
+        src.clip = dialogue;
+        src.Play();
     }
 
     public void PlayAnimation()

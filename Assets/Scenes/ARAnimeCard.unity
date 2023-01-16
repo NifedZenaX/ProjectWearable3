@@ -327,7 +327,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -396,9 +396,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 302d62f5774558a41b9416d507355a74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogues:
-  - Good day
-  - Itterashai
   dialogueCanvas: {fileID: 190501062}
   textbox: {fileID: 1712926890}
 --- !u!114 &190501065
@@ -492,9 +489,9 @@ RectTransform:
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -311.9975}
-  m_SizeDelta: {x: 0, y: -1175.695}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: 0, y: 303}
+  m_SizeDelta: {x: 0, y: 125.195435}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &251163510
 MonoBehaviour:
@@ -681,18 +678,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4712056021060039662, guid: 0175c01e8e979cf44bb74fdbbf9d8d77, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 4712056021060039662, guid: 0175c01e8e979cf44bb74fdbbf9d8d77, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 4712056021060039662, guid: 0175c01e8e979cf44bb74fdbbf9d8d77, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 4712056021060039662, guid: 0175c01e8e979cf44bb74fdbbf9d8d77, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -732,15 +717,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5111071560475300870, guid: 0175c01e8e979cf44bb74fdbbf9d8d77, type: 3}
-      propertyPath: m_audioClip
+    - target: {fileID: 5111071560475300888, guid: 0175c01e8e979cf44bb74fdbbf9d8d77, type: 3}
+      propertyPath: dialogueBox
       value: 
-      objectReference: {fileID: 8300000, guid: a344b196fe8386a458165aa52ed0ecba, type: 3}
+      objectReference: {fileID: 190501064}
     - target: {fileID: 5345567496029497684, guid: 0175c01e8e979cf44bb74fdbbf9d8d77, type: 3}
       propertyPath: m_Name
       value: Hutao Greeting
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8191346354360744920, guid: 0175c01e8e979cf44bb74fdbbf9d8d77, type: 3}
+      propertyPath: dialogue
+      value: 
+      objectReference: {fileID: 190501064}
+    m_RemovedComponents:
+    - {fileID: 8191346354360744920, guid: 0175c01e8e979cf44bb74fdbbf9d8d77, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 0175c01e8e979cf44bb74fdbbf9d8d77, type: 3}
 --- !u!4 &560552912 stripped
 Transform:
@@ -756,7 +746,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4695567945278854915, guid: 8a4727c15a163354785acadba7ee64e2, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4695567945278854915, guid: 8a4727c15a163354785acadba7ee64e2, type: 3}
       propertyPath: m_LocalScale.x
@@ -814,6 +804,10 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 0bb4a170fc063004897858c5df6dfdf5, type: 3}
+    - target: {fileID: 5089273559045632247, guid: 8a4727c15a163354785acadba7ee64e2, type: 3}
+      propertyPath: dialogueBox
+      value: 
+      objectReference: {fileID: 190501064}
     - target: {fileID: 5359796511490100665, guid: 8a4727c15a163354785acadba7ee64e2, type: 3}
       propertyPath: m_Name
       value: Hutao Angry
@@ -859,9 +853,9 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -449.9225}
-  m_SizeDelta: {x: 0, y: -899.845}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: 0, y: 183.22766}
+  m_SizeDelta: {x: 0, y: 366.45508}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &699958610
 MonoBehaviour:
@@ -1507,11 +1501,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1240739028523813212, guid: 51c75593a81dc364d980335ed12271a9, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 42.962
+      value: 58.486
       objectReference: {fileID: 0}
     - target: {fileID: 1240739028523813212, guid: 51c75593a81dc364d980335ed12271a9, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 42.962
+      value: 58.486
       objectReference: {fileID: 0}
     - target: {fileID: 1240739028523813212, guid: 51c75593a81dc364d980335ed12271a9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1547,7 +1541,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1240739028523813212, guid: 51c75593a81dc364d980335ed12271a9, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -9.857483
+      value: -9.857422
       objectReference: {fileID: 0}
     - target: {fileID: 1240739028523813212, guid: 51c75593a81dc364d980335ed12271a9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1782,9 +1776,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 302d62f5774558a41b9416d507355a74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogues:
-  - Good Day
-  - Itterashai
   dialogueCanvas: {fileID: 190501062}
   textbox: {fileID: 1712926890}
 --- !u!4 &2025175001
@@ -1853,7 +1844,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.8039216, b: 0.62352943, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
