@@ -37,12 +37,14 @@ public class CharacterDetailHandler : MonoBehaviour
 
             // Get button and attach play dialogue method to button
             Button dialogueBtn = dialogueGo.GetComponentInChildren<Button>();
-            dialogueBtn.onClick.AddListener(delegate { PlayAudio(character.dialogues[i].sound.dialogueSFX); });
+            int localIdx = i;
+            dialogueBtn.onClick.AddListener(delegate { PlayAudio(character.dialogues[localIdx].sound.dialogueSFX); });
         }
     }
 
     public void PlayAudio(AudioClip dialogue)
     {
+        Debug.Log(dialogue.name);
         AudioSource src = go.GetComponent<AudioSource>();
         src.clip = dialogue;
         src.Play();

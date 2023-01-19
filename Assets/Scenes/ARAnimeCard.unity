@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44441292, g: 0.48779923, b: 0.5404085, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -290,8 +290,8 @@ GameObject:
   - component: {fileID: 190501061}
   - component: {fileID: 190501060}
   - component: {fileID: 190501064}
-  - component: {fileID: 190501065}
   - component: {fileID: 190501066}
+  - component: {fileID: 190501065}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -425,7 +425,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1fa1afe669590c64391e160c2bb6916c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  congratsPanel: {fileID: 2070716538}
 --- !u!1 &251163508
 GameObject:
   m_ObjectHideFlags: 0
@@ -552,7 +551,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+  StatusFilter: 0
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -581,7 +580,7 @@ MonoBehaviour:
   OnTargetFound:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 190501066}
         m_TargetAssemblyTypeName: ImageTrackHandler, Assembly-CSharp
         m_MethodName: ScanCard
         m_Mode: 2
@@ -649,12 +648,24 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4712056021060039662, guid: 0175c01e8e979cf44bb74fdbbf9d8d77, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 4712056021060039662, guid: 0175c01e8e979cf44bb74fdbbf9d8d77, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 4712056021060039662, guid: 0175c01e8e979cf44bb74fdbbf9d8d77, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 4712056021060039662, guid: 0175c01e8e979cf44bb74fdbbf9d8d77, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4712056021060039662, guid: 0175c01e8e979cf44bb74fdbbf9d8d77, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.7
+      value: -2.35
       objectReference: {fileID: 0}
     - target: {fileID: 4712056021060039662, guid: 0175c01e8e979cf44bb74fdbbf9d8d77, type: 3}
       propertyPath: m_LocalPosition.z
@@ -688,6 +699,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5111071560475300870, guid: 0175c01e8e979cf44bb74fdbbf9d8d77, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: a344b196fe8386a458165aa52ed0ecba, type: 3}
     - target: {fileID: 5111071560475300888, guid: 0175c01e8e979cf44bb74fdbbf9d8d77, type: 3}
       propertyPath: dialogueBox
       value: 
@@ -725,7 +740,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &577308868
 RectTransform:
   m_ObjectHideFlags: 0
@@ -796,15 +811,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4695567945278854915, guid: 8a4727c15a163354785acadba7ee64e2, type: 3}
       propertyPath: m_LocalScale.x
-      value: 25
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 4695567945278854915, guid: 8a4727c15a163354785acadba7ee64e2, type: 3}
       propertyPath: m_LocalScale.y
-      value: 25
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 4695567945278854915, guid: 8a4727c15a163354785acadba7ee64e2, type: 3}
       propertyPath: m_LocalScale.z
-      value: 25
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 4695567945278854915, guid: 8a4727c15a163354785acadba7ee64e2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1072,7 +1087,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+  StatusFilter: 0
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -1101,7 +1116,7 @@ MonoBehaviour:
   OnTargetFound:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 190501066}
         m_TargetAssemblyTypeName: ImageTrackHandler, Assembly-CSharp
         m_MethodName: ScanCard
         m_Mode: 2
@@ -1151,7 +1166,7 @@ Transform:
   m_GameObject: {fileID: 1325545748}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 560552912}
   m_Father: {fileID: 0}
@@ -1296,7 +1311,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -1354,13 +1369,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1498800933}
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalRotation: {x: 0.10551407, y: -0.08400408, z: 0.26821026, w: 0.95387286}
+  m_LocalPosition: {x: 14.1, y: 97.1, z: -134.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 14.262, y: -6.14, z: 30.641}
 --- !u!1 &1653470993
 GameObject:
   m_ObjectHideFlags: 0
@@ -1547,11 +1562,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1240739028523813212, guid: 51c75593a81dc364d980335ed12271a9, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 58.486
+      value: 102.5
       objectReference: {fileID: 0}
     - target: {fileID: 1240739028523813212, guid: 51c75593a81dc364d980335ed12271a9, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 58.486
+      value: 102.5
       objectReference: {fileID: 0}
     - target: {fileID: 1240739028523813212, guid: 51c75593a81dc364d980335ed12271a9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1682,7 +1697,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: Hutao
 --- !u!222 &1979722364
 CanvasRenderer:
   m_ObjectHideFlags: 0
